@@ -1,0 +1,86 @@
+.sidebar {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 70px;
+    width: 215px;
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, Arial;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px; 
+  }
+  
+.homelink {
+    height: 40px;
+    width: 205px;
+    margin-bottom: 1px;
+    margin-left: 15px;
+    border-radius: 10px;
+    background-color: rgb( 240, 240, 240);
+    display: inline-flex;
+    font-weight: 500;
+    font-size: 14px;
+    padding-left: 12px;
+    padding-top: 8px;
+    gap: 25px;
+  }
+  
+.homelink:hover{
+    background-color: lightgray;
+  }
+  
+.sidebar-link {
+    color: black;
+    height: 40px;
+    width: 205px;
+    margin-bottom: 1px;
+    margin-left: 15px;
+    border-radius: 10px;
+    font-family: Roboto, Arial;
+    display: flex;
+    font-weight: 400;
+    font-size: 14px;
+    padding-left: 12px;
+    padding-top: 6px;
+    gap: 25px;
+    line-height: 30px;
+  }
+
+.sidebar-link:hover {
+    background-color: rgb(240, 240, 240);
+  }
+
+.subscriptions{
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Roboto, Arial;
+    margin-left: -70px;
+    margin-bottom: 8px;
+}
+
+.sub-link {
+    color: black;
+    height: 40px;
+    width: 205px;
+    margin-bottom: 1px;
+    margin-left: 15px;
+    border-radius: 10px;
+    font-family: Roboto, Arial;
+    padding-left: 12px;
+    padding-top: 8px;
+}
+
+
+.sub-link:hover {
+    background-color: rgb(240, 240, 240);
+  }
+
+.sub-pic {
+    width: 24px;
+    border-radius: 12px;
+    margin-right: 25px;
+}
+  
